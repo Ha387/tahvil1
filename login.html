@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login_register.css">
+    <title>ثبت نام| ورود</title>
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form action="login.php" method="post">
+                <h1> ساخت اکانت</h1>
+                <div class="social-icons">
+                    <a href="http://github.com" class="icons"><i class='bx bxl-google'></i></a>
+                    <a href="#" class="icons"><i class='bx bxl-facebook'></i></a>
+                    <a href="#" class="icons"><i class='bx bxl-github'></i></a>
+                    <a href="#" class="icons"><i class='bx bxl-linkedin'></i></a>
+                </div>
+                <span>ورود با ایمیل</span>
+                <input type="text" name="name" placeholder="اسم">
+                <input type="email" name="email" placeholder="ایمیل">
+                <input type="password" name="password" placeholder="رمز عبور">
+                <button>ساخت اکانت</button>
+            </form>
+        </div>
+
+
+        <div class="form-container sign-in">
+            <form action="login2.php" method="post">
+                <h1>ورود </h1>
+                <div class="social-icons">
+                    <a href="#" class="icons"><i class='bx bxl-google'></i></a>
+                    <a href="#" class="icons"><i class='bx bxl-facebook'></i></a>
+                    <a href="#" class="icons"><i class='bx bxl-github'></i></a>
+                    <a href="#" class="icons"><i class='bx bxl-linkedin'></i></a>
+                </div>
+                <span>ورود با استفاده از ایمیل و رمز عبور</span>
+                <input type="email" name="gmail" placeholder="ایمیل را وارد کنید">
+                <input type="password" name="pas" placeholder="رمز عبور را وارد کنید">
+                <a href="#">فراموشی رمز عبور</a>
+                <button>ورود</button>
+            </form>
+        </div>
+
+
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>خوش امدید <br>وبگاه خبری دانش اموزی</h1>
+                    <p>ورود با نام کاربری و رمز عبور</p>
+                    <button class="hidden" id="login">ورود</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>سلام خبرنگار</h1>
+                    <p>به وبگاه خبری دانش اموزی خوش امدید</p>
+                    <button class="hidden" id="register">ساخت اکانت</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="scrpt.js"></script>
+</body>
+</html>

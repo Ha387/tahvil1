@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "B Nazanin";
+  src: url("path/to/BNazanin.woff2") format("woff2"),
+       url("path/to/BNazanin.woff") format("woff");
+}
+
+body {
+  font-family: "B Nazanin", sans-serif;
+  background-color: #fffbfb;
+  color: #000000;
+  border-radius: 8px;
+  padding: 25px;
+}
+
+header h1 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 20px;
+  
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.navbar-brand:hover {
+  color: #e0e0e0;
+}
+
+.news-section {
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+footer {
+  background-color: #1f1f1f;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+p{
+  color: white;
+}
